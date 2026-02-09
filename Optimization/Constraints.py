@@ -1,0 +1,49 @@
+"""   CONSTRAINTS   """
+
+N_ESTIMATORSP = 50
+N_ESTIMATORSK = 500
+
+LAMBDAP = 0.1
+LAMBDAK = 1.0
+
+ALPHAP = 0.1
+ALPHAK = 1.0
+
+SUBSAMPLEP = 0.0
+SUBSAMPLEK = 1.0
+
+COLSAMPLE_BYTREEP = 0.0
+COLSAMPLE_BYTREEK = 1.0
+
+##    gbtree & dart
+
+MAX_DEPTHP = 1
+MAX_DEPTHK = 5
+
+MIN_CHILD_WEIGHTP = 1
+MIN_CHILD_WEIGHTK = 5
+
+ETAP = 0.01
+ETAK = 0.1
+
+GAMMAP = 0.1
+GAMMAK = 2.0
+
+##    gblinear
+
+UPDATER_LIST = ['shotgun', 'coord_descent']
+FEATURE_SELECTOR_LIST = ['cyclic', 'shuffle']
+
+
+##    dart
+
+SAMPLE_TYPE_LIST = ["uniform", "weighted"]
+NORMALIZE_TYPE_LIST = ["tree", "forest"]
+
+RATE_DROPP = 0.0
+RATE_DROPK = 1.0
+
+SKIP_DROPP = 0.0
+SKIP_DROPK = 1.0
+
+ONE_DROP_LIST = [False, True]

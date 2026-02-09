@@ -1,0 +1,17 @@
+[project]
+name = "hyperparams_optimizers"
+version = "0.1.0"
+description = "Project where the hyperparameters optimizers for XGBoost will be compare"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "missingno>=0.5.2",
+    "nevergrad>=1.0.12",
+    "numpy>=2.2.6",
+    "optuna>=4.6.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "xgboost>=3.1.1",
+]
