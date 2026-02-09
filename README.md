@@ -37,3 +37,6 @@ python Optimization/<optim_name>.py
 ```bash
 deactivate
 ```
+
+### Project results are described here:
+[XGBoost hyperparameters optimization results with different optimizers](POP_raport.pdf)
