@@ -1,7 +1,4 @@
-# POP_ktroszczynski_szelazowski
-
-
-## Autorzy projektu: Kamil Troszczyński, Seweryn Żelazowski
+## Autor projektu: Kamil Troszczyński
 
 
 ### Environment setup
